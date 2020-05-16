@@ -125,7 +125,7 @@ return even-1;
 template <class InputIt, class OutputIt, class BinaryOp>
 OutputIt Transform(InputIt begin, InputIt end, OutputIt other, BinaryOp f){
     // If the first container is empty or have uneven elements - return
-    if ((begin == end) or ((begin-end)%2 == 1)) 
+    if ((begin == end) or (std::distance(begin,end)%2 == 1)) 
         return other;
     
     InputIt odd = begin;
