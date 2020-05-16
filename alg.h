@@ -1,4 +1,4 @@
-// Implementation of Add_n, Transpose , Transform stl algorithms 
+// Implementation of algorithms similar to stl algorithms 
 #include <algorithm>
 
 /**
